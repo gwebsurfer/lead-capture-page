@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="GAB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="GAB" />
     <title>Workshop Gratuito - Primeiros passos com Programação Web</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon"> 
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
     <main>
-        <section class="logo">
-            <img src="./img/logo.svg">
-        </section>
+      <div class="text-white text-center mb-5">
+        <img src="./img/logo.svg" alt="Logo" class="logo" />
+        <h1 class="display-5 fw-bold">WORKSHOP</h1>
+        <p class="lead fw-normal fs-1">Primeiros passos com Programação Web</p>
+        <p class="h4 mt-5">100% gratuito e online</p>
+      </div>
 
-        <section>
-            <h1>
-                Workshop
-            </h1>
-
-            <h2>
-                Primeiros passos com Programação Web
-            </h2>
-        </section>
-
-        <section>
-            <h3>
-                100% gratuito e online
-            </h3>
-
-            <form action="https://gmail.us13.list-manage.com/subscribe/post?u=2aec14d392d9b0a8e4e5845c0&amp;id=73d6f93688&amp;f_id=0098dce2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input class="input-text" placeholder="Nome" type="text" name="FNAME">
-
-                <input class="input-text" placeholder="E-mail" type="email" name="EMAIL">
-
-                <label class="label-checkbox">
-                    <input type="checkbox">
-                    Sim, desejo me inscrever no Workshop e receber e-mails sobre tecnologia, programação e ofertas.
-                </label>
-
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name="b_2aec14d392d9b0a8e4e5845c0_73d6f93688" tabindex="-1" value="">
-                </div>
-                <div class="optionalParent">
-                    <div class="clear foot">
-                        <input type="submit" value="Quero me inscrever!" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    </div>
-                </div>
-            </form>
-        </section>
+      <div>
+        <form
+          action="YOUR_ACTION_URL"
+          method="post"
+          class="needs-validation"
+          novalidate
+        >
+          <div class="mb-3">
+            <input
+              type="text"
+              class="input-text"
+              placeholder="Nome"
+              name="name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="input-text"
+              placeholder="E-mail"
+              name="email"
+              required
+            />
+          </div>
+          <div class="mb-3 form-check text-start label-checkbox">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="subscriptionCheckbox"
+            />
+            <label class="form-check-label" for="subscriptionCheckbox">
+              Sim, desejo me inscrever no Workshop e receber e-mails sobre
+              tecnologia, programação e ofertas.
+            </label>
+          </div>
+          <button
+            type="submit"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            class="button"
+            >Quero me inscrever!</button
+          >
+        </form>
+      </div>
     </main>
-    
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
